@@ -222,10 +222,15 @@ footer {
 .home .intro p {
   padding: 0 15px;
 }
+.home .intro img {
+  width: 100%;
+  height: auto;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
 @media (max-width: 500px) {
   .home .intro img {
-    width: 100%;
-    height: auto;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
