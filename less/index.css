@@ -4,6 +4,10 @@
   max-width: 100vw;
   font-family: #454A59;
 }
+.hover {
+  background-color: #574f88;
+  font-family: 'Anton', sans-serif;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -246,6 +250,25 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn button {
+  background-color: #23293B;
+  padding: 10px 24px;
+  border: none;
+  text-align: center;
+  display: inline-block;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.home .walk .walk-text .btn button:hover {
+  background-color: #574f88;
+  font-family: 'Anton', sans-serif;
+}
+.home .walk .walk-text .btn button a {
+  text-decoration: none;
+  color: #F1F1F1;
+  font-size: 15px;
 }
 .home .walk .walk-img {
   width: 46%;
